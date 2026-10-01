@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Kélvio Nhancale, Adriano Vilanculos e Mário Tsenane — Web Developers.">
+  <meta name="theme-color" content="#080808">
+  <title>Kélvio Nhancale — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">KN<span>.</span></a>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#skills">Skills</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="nav-cta" href="#contacto">Vamos conversar <span>↗</span></a>
+    <button class="menu-btn" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> WEB DEVELOPMENT · MAPUTO</p>
+        <h1>Ideias que ganham<br><em>vida na web.</em></h1>
+        <p class="hero-text">
+          Somos uma equipa de Web Developers focada em criar experiências digitais
+          modernas, funcionais e pensadas para pessoas e negócios.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projetos">Ver projeto <span>↓</span></a>
+          <a class="btn ghost" href="#contacto">Entrar em contacto <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="window-bar"><i></i><i></i><i></i><span>team.js</span></div>
+          <div class="code-lines">
+            <p><b>01</b><span><em>const</em> team = [</span></p>
+            <p><b>02</b><span class="indent">"Kélvio Nhancale",</span></p>
+            <p><b>03</b><span class="indent">"Adriano Vilanculos",</span></p>
+            <p><b>04</b><span class="indent">"Mário Tsenane"</span></p>
+            <p><b>05</b><span>];</span></p>
+            <p><b>06</b><span><em>build</em>(ideas);</span></p>
+          </div>
+        </div>
+        <div class="floating-tag tag-one">React.js</div>
+        <div class="floating-tag tag-two">Creative<br>Development</div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>WEB DEVELOPMENT</span><b>✦</b><span>MODERN INTERFACES</span><b>✦</b>
+        <span>RESPONSIVE DESIGN</span><b>✦</b><span>WEB DEVELOPMENT</span><b>✦</b>
+        <span>MODERN INTERFACES</span><b>✦</b><span>RESPONSIVE DESIGN</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="sobre" class="section split">
+      <div class="section-label reveal">01 — SOBRE NÓS</div>
+      <div class="section-content reveal">
+        <h2>Construímos experiências digitais com <span>intenção.</span></h2>
+        <p>
+          Somos Kélvio Nhancale, Adriano Vilanculos e Mário Tsenane. Trabalhamos juntos
+          no desenvolvimento de experiências para a web, combinando código, criatividade
+          e atenção aos detalhes.
+        </p>
+        <p>
+          O nosso objetivo é transformar ideias em interfaces que sejam bonitas, rápidas,
+          responsivas e fáceis de utilizar.
+        </p>
+      </div>
+    </section>
+
+    <section id="projetos" class="section projects-section">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-label">02 — PROJETO EM DESTAQUE</div>
+          <h2>Projetos que criam <span>presença.</span></h2>
+        </div>
+        <p>Cada projeto é uma oportunidade de transformar uma ideia em presença digital.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-visual">
+            <div class="browser">
+              <div class="browser-top">
+                <div class="traffic"><span></span><span></span><span></span></div>
+                <small>cbbarberstudio.vercel.app</small>
+              </div>
+              <div class="barber-preview">
+                <div class="preview-grid"></div>
+                <div class="preview-glow"></div>
+                <div class="preview-content">
+                  <small>CB BARBEAR STUDIO</small>
+                  <h3>ESTILO.<br><i>PRECISÃO.</i></h3>
+                  <div class="preview-line"></div>
+                  <p>Website criado para apresentar a identidade, os serviços e a presença digital da barbearia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">01</div>
+            <h3>CB Barbear Studio</h3>
+            <p>Site criado para uma barbearia com o objetivo de estabelecer uma presença online profissional, apresentar os serviços e facilitar que potenciais clientes conheçam o negócio e encontrem as suas informações.</p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span></div>
+            <a class="project-link" href="https://cbbarberstudio.vercel.app/" target="_blank" rel="noopener">Visitar projeto <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual sound-visual">
+            <div class="browser">
+              <div class="browser-top">
+                <div class="traffic"><span></span><span></span><span></span></div>
+                <small>MALUANA'S SOUND STUDIO</small>
+              </div>
+              <div class="sound-preview">
+                <div class="sound-lines"></div><div class="sound-glow"></div>
+                <div class="sound-content">
+                  <small>MALUANA'S SOUND STUDIO</small>
+                  <h3>TECH.<br><i>STYLE.</i></h3>
+                  <div class="preview-line"></div>
+                  <p>Website criado para um vendedor de AirPods, fortalecendo a presença online e as oportunidades de alcançar potenciais clientes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">02</div>
+            <h3>Maluana's Sound Studio</h3>
+            <p>Site criado para um vendedor de AirPods, dando ao negócio uma presença online própria para apresentar os produtos, reforçar a sua identidade e criar mais oportunidades de ser encontrado por potenciais clientes.</p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span></div>
+            <div class="project-link project-link-disabled">Projeto apresentado no portfólio <span>✦</span></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="future-note reveal">
+        <span>+</span>
+        <div>
+          <strong>Novos projetos em breve</strong>
+          <small>Esta área será atualizada à medida que novos trabalhos forem concluídos.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-label reveal">03 — TECNOLOGIAS</div>
+      <div class="skills-layout">
+        <div class="skills-intro reveal">
+          <h2>Ferramentas para<br><span>transformar ideias.</span></h2>
+          <p>
+            Tecnologias que usamos para construir interfaces modernas e experiências web
+            funcionais.
+          </p>
+        </div>
+        <div class="skills-grid reveal">
+          <div class="skill"><strong>01</strong><h3>HTML</h3><p>Estrutura semântica e acessível.</p></div>
+          <div class="skill"><strong>02</strong><h3>CSS</h3><p>Layouts, responsividade e animações.</p></div>
+          <div class="skill"><strong>03</strong><h3>JavaScript</h3><p>Interações e lógica no navegador.</p></div>
+          <div class="skill"><strong>04</strong><h3>React.js</h3><p>Interfaces componentizadas e escaláveis.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section">
+      <div class="section-label reveal">04 — EQUIPA</div>
+      <div class="team-grid">
+        <article class="person reveal"><span>01</span><h3>Kélvio Nhancale</h3><p>Web Developer · Lead</p></article>
+        <article class="person reveal"><span>02</span><h3>Adriano Vilanculos</h3><p>Web Developer · Parceiro</p></article>
+        <article class="person reveal"><span>03</span><h3>Mário Tsenane</h3><p>Web Developer · Parceiro</p></article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="contact-box reveal">
+        <div>
+          <div class="section-label">05 — CONTACTO</div>
+          <h2>Vamos criar algo<br><span>memorável.</span></h2>
+          <p>Tem uma ideia, negócio ou projeto? Entre em contacto e vamos conversar.</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://wa.me/258876333116" target="_blank" rel="noopener">
+            <small>WHATSAPP</small><strong>+258 87 633 3116</strong><span>↗</span>
+          </a>
+          <a href="mailto:kelvionhancale@gmail.com">
+            <small>EMAIL</small><strong>kelvionhancale@gmail.com</strong><span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Kélvio Nhancale & equipa. Todos os direitos reservados.</p>
+    <a href="#home">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
